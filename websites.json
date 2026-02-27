@@ -1,0 +1,27 @@
+{
+  "websites": [
+    {
+      "id": "main",
+      "title": "AInohogosya - AIの専門家",
+      "description": "人工知能の可能性を探求し、最新技術を分かりやすくお届けします",
+      "url": "index.html",
+      "thumbnail": "images/thumbnails/default-thumbnail.jpg",
+      "tags": ["AI", "テクノロジー", "教育"],
+      "date": "2024-01-01"
+    },
+    {
+      "id": "example",
+      "title": "サンプルウェブサイト",
+      "description": "ウェブサイト管理システムのデモンストレーション",
+      "url": "example-website.html",
+      "thumbnail": "images/thumbnails/default-thumbnail.jpg",
+      "tags": ["デモ", "サンプル", "技術"],
+      "date": "2024-01-15"
+    }
+  ],
+  "settings": {
+    "autoDetect": true,
+    "defaultThumbnail": "images/thumbnails/default-thumbnail.jpg",
+    "supportedExtensions": [".html", ".htm"]
+  }
+}

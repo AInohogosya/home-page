@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEXIS-1.1 - AI画面操作ツール | AInohogosya</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1><a href="../index.html" class="logo-link">AInohogosya</a></h1>
+                    <span class="tagline">GitHubリポジトリ紹介</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link" data-translate="nav-home">ホーム</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#about" class="nav-link" data-translate="nav-about">自己紹介</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#content" class="nav-link" data-translate="nav-content">プロジェクト</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../websites.html" class="nav-link active" data-translate="nav-websites">記事一覧</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#contact" class="nav-link" data-translate="nav-contact">連絡先</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-hero">
+            <div class="container">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-title">
+                        <h1>VEXIS-1.1</h1>
+                        <p class="project-subtitle">AI画面操作ツール - Visual Execution & Intelligent System</p>
+                    </div>
+                </div>
+                <div class="project-stats">
+                    <div class="stat">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-code"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-flask"></i>
+                        <span>実験的</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-overview">
+            <div class="container">
+                <h2 class="section-title">プロジェクト概要</h2>
+                <div class="overview-content">
+                    <div class="overview-text">
+                        <p>
+                            VEXIS-1.1は、AIの視覚的認識能力と自然言語理解を融合させた次世代の操作自動化ツールです。コンピュータ画面をリアルタイムで捕捉し、AIが視覚的に状況を分析・判断することで、人間の自然言語指示を正確なコンピュータ操作に変換します。
+                        </p>
+                        <p>
+                            前バージョンであるVEXIS-1から大幅に進化し、特に記憶維持機能を改善することで、より長く複雑なタスクシーケンスを正確に実行できるようになりました。これにより、マルチステップ操作の信頼性が向上し、実用性が大幅に向上しています。
+                        </p>
+                        <p>
+                            従来のスクリプトベースの自動化とは異なり、VEXIS-1.1は環境の変化に適応し、視覚的な文脈理解に基づいて最適な操作方法を動的に決定します。これにより、Web検索、データ入力、ファイル管理、アプリケーション制御など、幅広いタスクを柔軟に自動化可能です。
+                        </p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/AInohogosya/VEXIS-1.1" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-github"></i>
+                            GitHubで見る
+                        </a>
+                        <a href="#installation" class="btn btn-secondary">
+                            <i class="fas fa-download"></i>
+                            インストール方法
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">主な機能</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>高度な画面認識</h3>
+                        <p>最新のAIビジョンモデルを活用し、リアルタイムで画面要素を認識・分析。UIコンポーネントの識別、テキスト内容の理解、レイアウト構造の把握を実現します。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mouse-pointer"></i>
+                        </div>
+                        <h3>精密マウス操作</h3>
+                        <p>視覚的認識に基づき、ピクセルレベルの精度でクリック、ドラッグ、スクロールを実行。動的UI要素にも対応し、座標ベースではない柔軟な操作を実現します。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-keyboard"></i>
+                        </div>
+                        <h3>インテリジェントキーボード入力</h3>
+                        <p>文脈理解に基づくテキスト入力、ショートカットキーの最適化、フォームフィールドの自動識別など、高度なキーボード操作を自動化します。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>高度なWebオートメーション</h3>
+                        <p>動的なWebページにも対応する高度なブラウザ操作。検索エンジン活用、マルチステップフォーム入力、ナビゲーション制御などを視覚的に実行します。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <h3>インテリジェントファイル管理</h3>
+                        <p>ファイルシステムの視覚的認識に基づく高度なファイル操作。フォルダ構造の理解、ファイル種別の識別、バッチ処理などを実現します。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <h3>シームレス実行環境</h3>
+                        <p>コマンドラインインターフェースから直感的に実行可能。最小限のセットアップで、複雑な操作タスクを自然言語指示だけで実行できます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="installation" class="installation">
+            <div class="container">
+                <h2 class="section-title">インストールと使用方法</h2>
+                <div class="install-content">
+                    <div class="requirements">
+                        <h3>動作環境</h3>
+                        <ul>
+                            <li>Python 3.9以上の実行環境</li>
+                            <li>OS: Windows / macOS / Desktop Linux</li>
+                            <li>APIキー（Gemini 3シリーズモデル使用時、必須）</li>
+                            <li>Ollamaアカウント（Gemini 3 Flashをクラウドモデルとして実行時、必須）</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="install-steps">
+                        <h3>インストール手順</h3>
+                        <div class="code-block">
+                            <pre><code class="language-bash">git clone https://github.com/AInohogosya/VEXIS-1.1.git
+cd VEXIS-1.1</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="usage">
+                        <h3>高度な使用方法</h3>
+                        <p>自然言語による直感的な操作指示で、複雑なタスクもシンプルに実行：</p>
+                        <div class="code-block">
+                            <pre><code class="language-bash">python3 run.py "実行したい操作の自然言語指示"</code></pre>
+                        </div>
+                        <div class="examples">
+                            <h4>高度な実行例</h4>
+                            <div class="code-block">
+                                <pre><code class="language-bash"># 高度なWebリサーチ
+python3 run.py "Googleで'Python AI automation'と検索し、上位3つの結果を新しいタブで開いて"
+
+# マルチステップファイル操作
+python3 run.py "デスクトップに'project_docs'フォルダを作成し、ダウンロードフォルダからPDFファイルのみ移動して"
+
+# アプリケーション連携
+python3 run.py "メモ帳を開いて現在の日付と時刻を入力し、'automation_log.txt'としてデスクトップに保存して"</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="capabilities">
+            <div class="container">
+                <h2 class="section-title">できること</h2>
+                <div class="capabilities-content">
+                    <div class="capability-list">
+                        <h3>基本機能</h3>
+                        <ul>
+                            <li><strong>Web検索と自動入力</strong> - 検索エンジンでの情報検索、フォームへの自動入力、Webページのナビゲーション</li>
+                            <li><strong>フォルダ・ファイル操作</strong> - ファイルの作成、移動、コピー、削除などの基本的なファイル管理作業</li>
+                            <li><strong>アプリケーション操作</strong> - 各種アプリケーションの基本操作を自動化</li>
+                            <li><strong>単一コマンド実行</strong> - 「python3 run.py "命令文"」のシンプルな形式で直感的に操作</li>
+                        </ul>
+                        
+                        <h3>バージョン1.1の主な改善点</h3>
+                        <ul>
+                            <li><strong>長期記憶（メモリー機能）の実装</strong> - 過去の実行ログや作業プロセスの保持が可能に</li>
+                            <li><strong>Gemini 3 Flash 向けプロンプトの最適化</strong> - OS操作における推論の正確性を向上</li>
+                            <li><strong>継続的なタスク実行</strong> - 一過性の操作から、前回の作業を踏まえた高度なタスク管理をサポート</li>
+                            <li><strong>実用性の向上</strong> - より長く複雑なタスクシーケンスを正確に実行可能に</li>
+                        </ul>
+
+                        <h3>技術的特徴</h3>
+                        <ul>
+                            <li><strong>画面キャプチャベースの意思決定</strong> - AIがリアルタイムで画面を認識し、状況に応じて操作を判断</li>
+                            <li><strong>マウス操作とキーボード入力のサポート</strong> - 人間と同じようなインターフェース操作を実現</li>
+                            <li><strong>ブラウザとアプリケーションの自動化</strong> - Web操作からデスクトップアプリまで幅広く対応</li>
+                        </ul>
+                        
+                        <h3>今後の開発方針</h3>
+                        <ul>
+                            <li><strong>継続的な進化</strong> - VEXIS-1.1はまだ進化途中であり、継続的な機能拡張と改善を予定しています</li>
+                            <li><strong>迅速なアップデート</strong> - ユーザーからのフィードバックを基に、積極的にアップデートを実施していきます</li>
+                            <li><strong>バグ対応の優先</strong> - バグ報告を受け次第、迅速に修正する体制を整えています</li>
+                            <li><strong>VEXISファミリーの拡大</strong> - VEXIS-1.1以外にも、様々な用途に対応したVEXISファミリーを展開していく予定です</li>
+                        </ul>
+                        <p class="note">
+                            ※結果は使用環境や状況によって異なる場合があります。
+                        </p>
+                    </div>
+                    <div class="precautions">
+                        <h3>注意事項</h3>
+                        <div class="warning-box">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <div>
+                                <p>本プロジェクトは実験的段階にあり、AIによる視覚的認識精度により操作結果が変動する可能性があります。</p>
+                                <p>重要なシステムやクリティカルなタスクへの適用には、十分な検証と監視をお願いいたします。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="technical-details">
+            <div class="container">
+                <h2 class="section-title">技術詳細</h2>
+                <div class="tech-content">
+                    <div class="tech-stack">
+                        <h3>技術スタック</h3>
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python 3.9+</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Computer Vision AI</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-desktop"></i>
+                                <span>Real-time Screen Capture</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-mouse"></i>
+                                <span>Precision Input Automation</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-language"></i>
+                                <span>NLP & Intent Understanding</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-cogs"></i>
+                                <span>Adaptive Decision Engine</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="architecture">
+                        <h3>システムアーキテクチャ</h3>
+                        <p>VEXIS-1.1は以下の高度なコンポーネントで構成されています：</p>
+                        <ul>
+                            <li><strong>高精度画面キャプチャエンジン</strong> - 60fpsリアルタイム画面取得と圧縮</li>
+                            <li><strong>AIビジョン推論モジュール</strong> - マルチモーダルAIによる視覚的状況分析と操作計画</li>
+                            <li><strong>適応的操作実行システム</strong> - 環境変化に対応する精密な入力制御</li>
+                            <li><strong>自然言語理解インターフェース</strong> - コンテキスト認識による指示解釈</li>
+                            <li><strong>フィードバックループ制御</strong> - 操作結果の視覚的検証と自己修正</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contributing">
+            <div class="container">
+                <h2 class="section-title">貢献方法</h2>
+                <div class="contributing-content">
+                    <p>
+                        VEXIS-1.1は現在も活発に開発が進められているプロジェクトです。ユーザーからのフィードバックやバグ報告を大切にし、迅速な対応を心がけています。プロジェクトの発展にご協力いただける方を大歓迎します。
+                    </p>
+                    <div class="contribute-links">
+                        <a href="https://github.com/AInohogosya/VEXIS-1.1/issues" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-bug"></i>
+                            バグ報告
+                        </a>
+                        <a href="https://github.com/AInohogosya/VEXIS-1.1/pulls" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-code-branch"></i>
+                            プルリクエスト
+                        </a>
+                        <a href="https://github.com/AInohogosya/VEXIS-1.1/discussions" target="_blank" class="btn btn-secondary">
+                            <i class="fas fa-comments"></i>
+                            ディスカッション
+                        </a>
+                    </div>
+                    <div class="future-vision">
+                        <h3>将来の展望</h3>
+                        <p>
+                            VEXIS-1.1の成功を基に、将来的には様々な用途に対応したVEXISファミリーを展開していく予定です。Webオートメーションに特化したもの、モバイル操作に対応したもの、特定の業務用途に最適化したものなど、多様なバリエーションを検討しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>AInohogosya</h3>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/AInohogosya" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://x.com/AInohogosya" target="_blank" class="social-link">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AInohogosya. オープンソースでAI開発</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="../language.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>

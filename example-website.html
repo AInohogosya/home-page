@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIチャットボットサンプル - AInohogosya</title>
+    <meta name="description" content="AI技術を使ったチャットボットのデモンストレーションサイトです">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 800px;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 2rem;
+        }
+        
+        .chat-container {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            height: 400px;
+            overflow-y: auto;
+        }
+        
+        .message {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+        
+        .message.user {
+            flex-direction: row-reverse;
+        }
+        
+        .message-content {
+            background: #6366f1;
+            color: white;
+            padding: 0.75rem 1rem;
+            border-radius: 15px;
+            max-width: 70%;
+        }
+        
+        .message.user .message-content {
+            background: #e5e7eb;
+            color: #1f2937;
+        }
+        
+        .avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #6366f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.8rem;
+        }
+        
+        .input-container {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .input-container input {
+            flex: 1;
+            padding: 1rem;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+        
+        .input-container button {
+            background: #6366f1;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+        
+        .input-container button:hover {
+            background: #4f46e5;
+        }
+        
+        .back-link {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .back-link a {
+            color: #6366f1;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AIチャットボットサンプル</h1>
+            <p>AI技術を使った対話型チャットボットのデモ</p>
+        </div>
+        
+        <div class="content">
+            <div class="chat-container" id="chatContainer">
+                <div class="message">
+                    <div class="avatar">AI</div>
+                    <div class="message-content">
+                        こんにちは！AIアシスタントです。何かお手伝いできることはありますか？
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-container">
+                <input type="text" id="messageInput" placeholder="メッセージを入力してください..." />
+                <button onclick="sendMessage()">送信</button>
+            </div>
+            
+            <div class="back-link">
+                <a href="websites.html">← ウェブサイト一覧に戻る</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const chatContainer = document.getElementById('chatContainer');
+            
+            if (input.value.trim() === '') return;
+            
+            // ユーザーメッセージを追加
+            const userMessage = document.createElement('div');
+            userMessage.className = 'message user';
+            userMessage.innerHTML = `
+                <div class="avatar">U</div>
+                <div class="message-content">${input.value}</div>
+            `;
+            chatContainer.appendChild(userMessage);
+            
+            // AIの応答をシミュレート
+            setTimeout(() => {
+                const aiMessage = document.createElement('div');
+                aiMessage.className = 'message';
+                aiMessage.innerHTML = `
+                    <div class="avatar">AI</div>
+                    <div class="message-content">「${input.value}」についてですね。素晴らしい質問です！AI技術は日々進化しており、様々な可能性を秘めています。</div>
+                `;
+                chatContainer.appendChild(aiMessage);
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            }, 1000);
+            
+            input.value = '';
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+        
+        // Enterキーで送信
+        document.getElementById('messageInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>

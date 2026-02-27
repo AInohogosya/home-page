@@ -1,0 +1,26 @@
+{
+  "name": "ainohogosya-website",
+  "version": "1.0.0",
+  "description": "AInohogosyaのホームページとウェブサイト管理システム - 静的サイト版",
+  "main": "index.html",
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "serve-node": "npx http-server -p 8000 -o",
+    "build": "echo 'Static site - no build step required'",
+    "deploy": "echo 'Ready for GitHub Pages deployment'"
+  },
+  "keywords": [
+    "website",
+    "portfolio",
+    "ai",
+    "technology",
+    "static-site",
+    "github-pages"
+  ],
+  "author": "AInohogosya",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "homepage": "."
+}

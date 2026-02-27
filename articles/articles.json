@@ -1,0 +1,72 @@
+{
+  "articles": [
+    {
+      "id": "homepage-announcement",
+      "date": "2026-02-28",
+      "category": {
+        "ja": "お知らせ",
+        "en": "Announcement",
+        "zh": "公告"
+      },
+      "title": {
+        "ja": "AInohogosya公式ホームページ公開",
+        "en": "AInohogosya Official Website Launch",
+        "zh": "AInohogosya官方网站发布"
+      },
+      "subtitle": {
+        "ja": "GitHubリポジトリの概要、使い方、開発経緯を体系的に公開するプラットフォーム",
+        "en": "A platform to systematically publish GitHub repository overviews, usage guides, and development history",
+        "zh": "系统发布GitHub仓库概览、使用方法和开发历程的平台"
+      },
+      "excerpt": {
+        "ja": "AInohogosyaの公式ホームページを公開いたしました。GitHubで公開しているリポジトリの概要、使い方、開発経緯などを体系的にまとめるプラットフォームとして、各プロジェクトの詳細なドキュメンテーションを提供します。",
+        "en": "We are pleased to announce the launch of the AInohogosya official website. As a platform to systematically organize repository overviews, usage guides, and development history published on GitHub, we provide detailed documentation for each project.",
+        "zh": "我们很高兴地宣布AInohogosya官方网站的发布。作为系统整理GitHub上发布的仓库概览、使用指南和开发历史的平台，我们为每个项目提供详细的文档。"
+      },
+      "tags": {
+        "ja": ["お知らせ", "ホームページ", "GitHub", "ドキュメンテーション"],
+        "en": ["Announcement", "Website", "GitHub", "Documentation"],
+        "zh": ["公告", "网站", "GitHub", "文档"]
+      },
+      "url": {
+        "ja": "articles/homepage-announcement.html",
+        "en": "articles/homepage-announcement-en.html",
+        "zh": "articles/homepage-announcement-zh.html"
+      }
+    },
+    {
+      "id": "vexis-1-1",
+      "date": "2026-02-28",
+      "category": {
+        "ja": "プロジェクト",
+        "en": "Project",
+        "zh": "项目"
+      },
+      "title": {
+        "ja": "VEXIS-1.1 - 次世代AI画面操作自動化ツール",
+        "en": "VEXIS-1.1 - Next-Generation AI Screen Operation Automation Tool",
+        "zh": "VEXIS-1.1 - 新一代AI屏幕操作自动化工具"
+      },
+      "subtitle": {
+        "ja": "VEXIS-1から記憶維持機能を大幅に改善したバージョン",
+        "en": "Version with significantly improved memory retention from VEXIS-1",
+        "zh": "从VEXIS-1大幅改进记忆维持功能的版本"
+      },
+      "excerpt": {
+        "ja": "VEXIS-1.1は、AIの視覚的認識能力と自然言語理解を融合させた操作自動化ツールです。前バージョンから記憶維持機能を大幅に改善し、より長く複雑なタスクシーケンスを正確に実行できるようになりました。",
+        "en": "VEXIS-1.1 is an operation automation tool that combines AI visual recognition capabilities with natural language understanding. Memory retention has been significantly improved from the previous version, enabling more accurate execution of longer and more complex task sequences.",
+        "zh": "VEXIS-1.1是一个结合AI视觉识别能力和自然语言理解的操作自动化工具。与前一版本相比，记忆维持功能得到了显著改善，能够更准确地执行更长、更复杂的任务序列。"
+      },
+      "tags": {
+        "ja": ["AI", "画面操作", "Computer Vision", "Python", "自動化", "VEXIS"],
+        "en": ["AI", "Screen Operation", "Computer Vision", "Python", "Automation", "VEXIS"],
+        "zh": ["AI", "屏幕操作", "计算机视觉", "Python", "自动化", "VEXIS"]
+      },
+      "url": {
+        "ja": "articles/vexis-1-1.html",
+        "en": "articles/vexis-1-1-en.html",
+        "zh": "articles/vexis-1-1-zh.html"
+      }
+    }
+  ]
+}
