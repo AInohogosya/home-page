@@ -67,6 +67,40 @@
         "en": "articles/vexis-1-1-en.html",
         "zh": "articles/vexis-1-1-zh.html"
       }
+    },
+    {
+      "id": "ainohogosya-team-launch",
+      "date": "2026-02-28",
+      "category": {
+        "ja": "お知らせ",
+        "en": "Announcement",
+        "zh": "公告"
+      },
+      "title": {
+        "ja": "AInohogosya-Teamを始めました",
+        "en": "Launching AInohogosya-Team",
+        "zh": "启动AInohogosya-Team"
+      },
+      "subtitle": {
+        "ja": "複数人での協力開発によるプロジェクト品質向上と機能拡張",
+        "en": "Improving project quality and expanding features through collaborative development",
+        "zh": "通过协作开发提高项目质量和扩展功能"
+      },
+      "excerpt": {
+        "ja": "本日、AInohogosya-Teamを公開いたしました。これにより、複数人が協力してVEXISなどのバグ発見や修正、新機能の追加などを効率的に行える体制を整えました。",
+        "en": "Today, we are launching AInohogosya-Team. This establishes a system where multiple people can efficiently collaborate on bug discovery and fixes, feature additions, and more for projects like VEXIS.",
+        "zh": "今天，我们启动了AInohogosya-Team。这建立了一个多人协作的体系，可以高效地进行VEXIS等项目的错误发现和修复、新功能添加等工作。"
+      },
+      "tags": {
+        "ja": ["お知らせ", "チーム", "協力開発", "VEXIS", "オープンソース"],
+        "en": ["Announcement", "Team", "Collaborative Development", "VEXIS", "Open Source"],
+        "zh": ["公告", "团队", "协作开发", "VEXIS", "开源"]
+      },
+      "url": {
+        "ja": "articles/ainohogosya-team-launch.html",
+        "en": "articles/ainohogosya-team-launch-en.html",
+        "zh": "articles/ainohogosya-team-launch-zh.html"
+      }
     }
   ]
 }
