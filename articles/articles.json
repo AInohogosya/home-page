@@ -101,6 +101,40 @@
         "en": "articles/ainohogosya-team-launch-en.html",
         "zh": "articles/ainohogosya-team-launch-zh.html"
       }
+    },
+    {
+      "id": "vexis-cli-1",
+      "date": "2026-03-02",
+      "category": {
+        "ja": "プロジェクト",
+        "en": "Project",
+        "zh": "项目"
+      },
+      "title": {
+        "ja": "VEXIS-CLI-1 - CLI操作へ進化した高精度AI自動化ツール",
+        "en": "VEXIS-CLI-1 - High-Precision AI Automation Tool Evolved to CLI Operation",
+        "zh": "VEXIS-CLI-1 - 进化为CLI操作的高精度AI自动化工具"
+      },
+      "subtitle": {
+        "ja": "GUIを操作するVEXIS-1.1をCLI操作用AIへと大幅に変更したバージョン",
+        "en": "Version with significant changes to VEXIS-1.1 GUI operation for CLI operation AI",
+        "zh": "将操作GUI的VEXIS-1.1大幅修改为操作CLI的AI版本"
+      },
+      "excerpt": {
+        "ja": "VEXIS-CLI-1は、GUIを操作するVEXIS-1.1をCLIを操作するためのAIへと変更するために大幅なコード編集を行ったVEXISです。CLI化により精度が向上し、モデルの選択肢も大幅に広がりました。",
+        "en": "VEXIS-CLI-1 is a VEXIS that has undergone significant code modifications to transform VEXIS-1.1, which operates GUI, into an AI for CLI operation. CLI conversion has improved accuracy and dramatically expanded model options.",
+        "zh": "VEXIS-CLI-1是一个对VEXIS-1.1进行大量代码修改，将操作GUI的AI转换为操作CLI的AI的VEXIS版本。通过CLI化提高了精度，也大幅扩展了模型选择范围。"
+      },
+      "tags": {
+        "ja": ["AI", "CLI", "自動化", "VEXIS", "言語モデル"],
+        "en": ["AI", "CLI", "Automation", "VEXIS", "Language Model"],
+        "zh": ["AI", "CLI", "自动化", "VEXIS", "语言模型"]
+      },
+      "url": {
+        "ja": "articles/vexis-cli-1.html",
+        "en": "articles/vexis-cli-1-en.html",
+        "zh": "articles/vexis-cli-1-zh.html"
+      }
     }
   ]
 }
