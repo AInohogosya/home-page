@@ -1,2 +1,2 @@
-サイト内にAIの専門家だとか、AIクリエイターだとか書いてあるところがありますが、それはバイブコーディングでこのサイトを作ったので、AIの誇張表現です。
-近いうちに直すつもりなので、まぁ、よろしくお願いします。
+This is a program for https://ainohogosya.github.io/home-page/.
+Please try it as https://ainohogosya.github.io/home-page/, not as a program.
