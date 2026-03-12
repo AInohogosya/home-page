@@ -1,6 +1,40 @@
 {
   "articles": [
     {
+      "id": "ainohogosya-team-dissolution",
+      "date": "2026-03-12",
+      "category": {
+        "ja": "お知らせ",
+        "en": "Announcement",
+        "zh": "公告"
+      },
+      "title": {
+        "ja": "AInohogosya-team 解散のお知らせ（完了）",
+        "en": "AInohogosya-team Dissolution Announcement (Completed)",
+        "zh": "AInohogosya-team 解散公告（已完成）"
+      },
+      "subtitle": {
+        "ja": "学生AI開発者のAInohogosyaがチーム解散手続きを完了",
+        "en": "Student AI developer AInohogosya completes team dissolution process",
+        "zh": "学生AI开发者AInohogosya完成团队解散流程"
+      },
+      "excerpt": {
+        "ja": "学生AI開発者のAInohogosya（X: @AInohogosya）は、2026年3月9日に発表した「AInohogosya-team」の解散手続きを、予定通り完了させました。立ち上げから約10日で参加者・貢献が得られず、迅速に解散判断・実行されました。",
+        "en": "Student AI developer AInohogosya (X: @AInohogosya) has completed the dissolution process of \"AInohogosya-team\" as announced on March 9, 2026. With no participants or contributions for about 10 days since launch, the decision to dissolve was quickly made and executed.",
+        "zh": "学生AI开发者AInohogosya（X: @AInohogosya）已完成2026年3月9日宣布的「AInohogosya-team」解散流程。自启动约10天未获得参与者或贡献，迅速做出解散决定并执行。"
+      },
+      "tags": {
+        "ja": ["お知らせ", "チーム", "解散", "VEXIS", "GitHub"],
+        "en": ["Announcement", "Team", "Dissolution", "VEXIS", "GitHub"],
+        "zh": ["公告", "团队", "解散", "VEXIS", "GitHub"]
+      },
+      "url": {
+        "ja": "articles/ainohogosya-team-dissolution.html",
+        "en": "articles/ainohogosya-team-dissolution-en.html",
+        "zh": "articles/ainohogosya-team-dissolution-zh.html"
+      }
+    },
+    {
       "id": "homepage-announcement",
       "date": "2026-02-28",
       "category": {
