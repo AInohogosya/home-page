@@ -1,6 +1,40 @@
 {
   "articles": [
     {
+      "id": "vexis-1-2",
+      "date": "2026-03-09",
+      "category": {
+        "ja": "プロジェクト",
+        "en": "Project",
+        "zh": "项目"
+      },
+      "title": {
+        "ja": "【リリース】次世代AIエージェント「VEXIS-1.2」を公開",
+        "en": "【Release】Next-Generation AI Agent \"VEXIS-1.2\" Released",
+        "zh": "【发布】新一代AI代理「VEXIS-1.2」发布"
+      },
+      "subtitle": {
+        "ja": "OS操作特化型AIエージェントの最新バージョンを正式リリース",
+        "en": "Official release of the latest version of OS-specialized AI agent",
+        "zh": "OS专用AI代理最新版本正式发布"
+      },
+      "excerpt": {
+        "ja": "本日、OS操作特化型AIエージェントの最新バージョン「VEXIS-1.2」をGitHubにて正式リリースいたしました！VEXIS-CLI-1との共通機能差を解消し、GUI版とCLI版の整合性を大幅に向上させました。",
+        "en": "Today we officially released the latest version of our OS-specialized AI agent \"VEXIS-1.2\" on GitHub! We resolved the functional differences with VEXIS-CLI-1 and significantly improved the consistency between GUI and CLI versions.",
+        "zh": "今天我们在GitHub上正式发布了OS专用AI代理的最新版本「VEXIS-1.2」！我们解决了与VEXIS-CLI-1的功能差异，大幅提升了GUI和CLI版本之间的一致性。"
+      },
+      "tags": {
+        "ja": ["AI", "OS操作", "VEXIS", "リリース", "Gemini", "GUI"],
+        "en": ["AI", "OS Operation", "VEXIS", "Release", "Gemini", "GUI"],
+        "zh": ["AI", "OS操作", "VEXIS", "发布", "Gemini", "GUI"]
+      },
+      "url": {
+        "ja": "articles/vexis-1-2.html",
+        "en": "articles/vexis-1-2-en.html",
+        "zh": "articles/vexis-1-2-zh.html"
+      }
+    },
+    {
       "id": "ainohogosya-team-dissolution",
       "date": "2026-03-12",
       "category": {
