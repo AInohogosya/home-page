@@ -203,6 +203,40 @@
         "en": "articles/vexis-cli-1-en.html",
         "zh": "articles/vexis-cli-1-zh.html"
       }
+    },
+    {
+      "id": "vexis-cli-1-1",
+      "date": "2026-03-15",
+      "category": {
+        "ja": "研究論文",
+        "en": "Research Paper",
+        "zh": "研究论文"
+      },
+      "title": {
+        "ja": "VEXIS-CLI-1.1：コマンドラインインターフェースAIエージェントのモデル選択自由度と効率性の向上に関する研究",
+        "en": "VEXIS-CLI-1.1: Research on Improving Model Selection Flexibility and Efficiency of Command Line Interface AI Agents",
+        "zh": "VEXIS-CLI-1.1：关于提高命令行界面AI代理模型选择自由度和效率的研究"
+      },
+      "subtitle": {
+        "ja": "モデル選択の自由度拡大と第3フェーズ削除による効率性向上の技術的分析",
+        "en": "Technical Analysis of Efficiency Improvement through Model Selection Freedom Expansion and Phase 3 Elimination",
+        "zh": "通过模型选择自由度扩展和第三阶段消除提高效率的技术分析"
+      },
+      "excerpt": {
+        "ja": "本研究では、VEXIS-CLI-1.1の開発過程と技術的改善点について論じる。VEXIS-CLI-1.1は、先行バージョンVEXIS-CLI-1の課題を解決し、モデル選択の自由度と実行効率性を大幅に向上させた。",
+        "en": "This paper discusses the development process and technical improvements of VEXIS-CLI-1.1. VEXIS-CLI-1.1 solves the issues of the previous version VEXIS-CLI-1 and significantly improves model selection flexibility and execution efficiency.",
+        "zh": "本文讨论了VEXIS-CLI-1.1的开发过程和技术改进点。VEXIS-CLI-1.1解决了先前版本VEXIS-CLI-1的问题，并大幅提高了模型选择自由度和执行效率。"
+      },
+      "tags": {
+        "ja": ["研究論文", "AI", "CLI", "VEXIS", "モデル選択", "効率化"],
+        "en": ["Research Paper", "AI", "CLI", "VEXIS", "Model Selection", "Efficiency"],
+        "zh": ["研究论文", "AI", "CLI", "VEXIS", "模型选择", "效率"]
+      },
+      "url": {
+        "ja": "articles/vexis-cli-1-1.html",
+        "en": "articles/vexis-cli-1-1-en.html",
+        "zh": "articles/vexis-cli-1-1-zh.html"
+      }
     }
   ]
 }
